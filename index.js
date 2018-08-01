@@ -8,7 +8,7 @@ login({email: key.botmail.emailID , password: key.botmail.emailSecret}, (err, ap
     var msg = "Hi!";
 
     //api.sendMessage(msg, yourID);
-    setInterval( function(){ api.sendMessage(keys.receiver.ID, keys.receiver.Msg); }, 1000);
+    setInterval( function(){ api.sendMessage(key.receiver.ID, key.receiver.Msg); }, 1000);
 });
 
 
