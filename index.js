@@ -4,7 +4,7 @@ const key = require("./config/keys.js")
 login({email: key.botmail.emailID , password: key.botmail.emailSecret}, (err, api) => {
     if(err) return console.error(err);
 
-    var yourID = "100000303913840";
+    var yourID = "";
     var msg = "Hi!";
 
     //api.sendMessage(msg, yourID);
